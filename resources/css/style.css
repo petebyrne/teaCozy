@@ -1,0 +1,137 @@
+* {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+html {
+    font-size: 22px;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 1000px;
+}
+
+nav {
+    float: right;
+    height: 69px;
+    overflow: hidden;
+}
+
+li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    height: 69px;
+    width: 150px; 
+}
+
+figure {
+    margin: 15px;
+}
+
+
+#logo {
+    height: 50px;
+    float: left;
+    margin-top: 9px;
+    padding-left: 10px;
+    width: auto;
+}
+
+#heroImage {
+    background-image:url('../images/mission.webp');
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 62px;
+}
+
+#mission {
+    position: relative;
+    top: 300px;
+    vertical-align: middle;
+    padding: 1px 0;
+}
+
+#mission h4 {
+    vertical-align: middle;
+}
+
+#teaOfTheMonth {
+    position: relative;
+    top: 100px;
+    width: 1000px;
+    margin: 10px auto;
+}
+
+#teas {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+#teas img {
+    width: 300px;
+    height: 200px;
+}
+
+figcaption {
+    position: relative;
+    line-height: 10px;
+}
+
+#locations {
+    background-image:url('../images/img-locations-background.webp');
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    margin: 100px auto;
+    position: relative;
+    top: 39px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#noBg {
+    background-color: transparent;
+    position: absolute;
+    bottom: 400px;
+}
+
+.location {
+    width: 300px;
+    opacity: 1;
+    height: 300px;
+    margin: 10px;
+}
+
+.location h4 {
+    line-height: 3rem;;
+}
+
+footer {
+    position: relative;
+    margin: 0;
+}
+
+#copyright {
+    float: left;
+}
