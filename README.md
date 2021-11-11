@@ -2,7 +2,7 @@
 
 ## Website Project
 
-The front page of a web-site used to promote a tea company, displaying CSS techniques in display using the box model.
+The front page of a web-site used to promote a tea company, utilizing CSS techniques in display using the box model.
 
 ## Technologies
 
