@@ -2,7 +2,7 @@
 
 ## Website Project
 
-The front page of web-site used to promote a Tea company, displaying CSS techniques in display using the box model.
+The front page of a web-site used to promote a tea company, displaying CSS techniques in display using the box model.
 
 ## Technologies
 
@@ -10,6 +10,7 @@ The front page of web-site used to promote a Tea company, displaying CSS techniq
 2. CSS
 3. Git & Github
 4. The Command Line
+5. VSCode
 
 ## Launch
 
